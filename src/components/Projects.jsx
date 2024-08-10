@@ -8,6 +8,7 @@ import todo from '../assets/Projects/todo.png';
 import megablog from "../assets/Projects/megablog.png"
 import HMS from "../assets/Projects/HMS.png"
 import bed from "../assets/Projects/images/bed.png"
+import music from "../assets/Projects/images/images.png"
 
 function Projects() {
     return (
@@ -22,9 +23,9 @@ function Projects() {
                     </p>
                 </div>
                 <div className="cards flex justify-center flex-col items-center gap-8 mt-10">
-                    <Link className="card flex md:w-[80%] md:h-[220px] lg:w-[60%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12">
+                    <Link to='https://github.com/uttamseervi/Spotify' className="card flex md:w-[80%] md:h-[220px] lg:w-[60%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12">
                         <div className="projectInfo w-full md:w-1/2 md:h-[220px] h-[90px] ml-4 flex flex-col justify-center rounded-lg"> {/* Changed to w-full for smaller screens */}
-                            <img src={img1} alt="Project Icon" className="w-10 ml-6 md:block lg:block hidden" />
+                            <img src={music} alt="Project Icon" className="w-10 ml-6 md:block lg:block hidden rounded-md" />
                             <h2 className="text-2xl font-semibold mt-3 ml-4">Spotify</h2>
                             <p className="text-xs text-gray-500 ml-4">
                                 HTML CSS JavaScript
@@ -58,7 +59,7 @@ function Projects() {
                         </div>
                     </Link>
 
-                    <Link to="" className="card flex md:w-[80%] md:h-[220px] lg:w-[60%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12">
+                    <Link to="https://github.com/uttamseervi/Hotel-Manegement-System" className="card flex md:w-[80%] md:h-[220px] lg:w-[60%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12">
                         <div className="projectInfo w-full md:w-1/2 md:h-[220px] h-[90px] ml-4 flex flex-col justify-center rounded-lg"> {/* Changed to w-full for smaller screens */}
                             <img src={bed} alt="Project Icon" className="w-16 ml-3 md:block lg:block hidden" />
                             <h2 className="text-2xl font-semibold mt-3 ml-4">Hotel Management System</h2>
