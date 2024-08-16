@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className='overflow-x-hidden' >
+    <div className='overflow-x-hidden mt-0' >
       <Header />
       <Hero />
       <ImageCarousel />
