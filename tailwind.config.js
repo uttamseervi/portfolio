@@ -6,7 +6,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        fillFromCenter: {
+          '0%': { clipPath: 'circle(0% at 50% 50%)' },
+          '100%': { clipPath: 'circle(100% at 50% 50%)' },
+        },
+      },
+      animation: {
+        fillFromCenter: 'fillFromCenter 1.9s ease-out forwards',
+      },
+    },
   },
   plugins: [
     daisyui,

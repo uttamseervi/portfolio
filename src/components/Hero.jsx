@@ -11,13 +11,14 @@ import bg1 from "../assets/bg1.jpg"
 
 const Hero = () => {
     return (
-        <section id="hero" className='overflow-x-hidden lg:mt-10 md:mt-[-230px] h-min'
+        <section id="hero" className='overflow-x-hidden lg:mt-10 md:mt-[-230px] h-min animate-fillFromCenter '
             style={{
                 backgroundImage: `url(${bg1})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 marginTop: "-20px"
+
             }}
         >
             <div className="hero max-w-full h-screen ml-0 sm:ml-8 bg-transparent "
